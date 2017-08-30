@@ -7,7 +7,7 @@ This is an implementation of PLANE - a method for embedding a document network i
 
 Usage:
 
-	perl gaussiansv.pl	--num_topics $num_topics
+	perl plane.pl		--num_topics $num_topics
 				--dim $dim
 				--alpha $alpha
 				--beta $beta
