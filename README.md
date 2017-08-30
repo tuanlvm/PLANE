@@ -64,4 +64,4 @@ If you use PLANE for your research, please cite:
 	    year={2014}
 	}
 		
-	The paper can be downloaded from: http://www.hadylauw.com/publications/icdm14.pdf
+The paper can be downloaded from: http://www.hadylauw.com/publications/icdm14.pdf
