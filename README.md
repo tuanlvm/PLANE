@@ -8,15 +8,15 @@ This is an implementation of PLANE - a method for embedding a document network i
 Usage:
 
 	perl gaussiansv.pl	--num_topics $num_topics
-						--dim $dim
-						--alpha $alpha
-						--beta $beta
-						--gamma $gamma
-						--EM_iter $EM_iter
-						--Quasi_iter $Quasi_iter
-						--data $data
-						--graph $graph
-						--output_file $output_file
+				--dim $dim
+				--alpha $alpha
+				--beta $beta
+				--gamma $gamma
+				--EM_iter $EM_iter
+				--Quasi_iter $Quasi_iter
+				--data $data
+				--graph $graph
+				--output_file $output_file
 
 Arguments:
 
@@ -41,16 +41,16 @@ Details:
 	
 + Example of input data with 3 documents (numbers are ids of words):
 
-	0 1 1 2 2 3 4 4 5 6 7 7 8 8 8 8 9 10 11 12 13 13 14 14 15 15 15 16
-	17 18 19 20 20 21 22 23 24 25 25 25 25 25 25 26 27 27 28 29
-	30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 50 51 52 53 54 54 55 56 57 58
+	0 1 1 2 2 3 4 4 5 6 7 7 8 8 8 8 9 10 11 12 13 13 14 14 15 15 15 16<br/>
+	17 18 19 20 20 21 22 23 24 25 25 25 25 25 25 26 27 27 28 29<br/>
+	30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 50 51 52 53 54 54 55 56 57 58<br/>
 			
 + Document network is represented by a matrix A: NxN. N is the number of documents and A[i,j]=A[j,i]=1 when there is an edge connecting documents i and j.
 
   For example,
   
-	0 1 0
-	1 0 1
+	0 1 0<br/>
+	1 0 1<br/> 
 	0 1 0
 
 HOW TO CITE
